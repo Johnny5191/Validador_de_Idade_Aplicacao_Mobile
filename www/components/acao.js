@@ -4,7 +4,7 @@ function funcao(){
   var nome = document.getElementById("nome").value;
 
   let img = document.createElement('img')
-  img.src = "https://doutormultas.com.br/wp-content/uploads/2017/11/cnh-provisoria-pode-dirigir-em-rodovias-conheca-as-regras.jpg";
+  img.src = "https://d2r9epyceweg5n.cloudfront.net/apps/955-pt_BR-small-Logo%20560x560.png";
   img.style = " width: 100vw";
 
   let img2 = document.createElement('img')
@@ -20,5 +20,3 @@ function funcao(){
     document.body.appendChild(img2);
   }
 }
-alert(funcao())
-
